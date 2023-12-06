@@ -24,4 +24,9 @@ Public Class Form1
             Form2.LabelPassword.Text = TextBoxPassword.Text
         End If
     End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Hide()
+        Form5.Show()
+    End Sub
 End Class
