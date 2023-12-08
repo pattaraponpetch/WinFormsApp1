@@ -46,6 +46,7 @@ Module Module1
             Return 1
         Catch ex As Exception
             Debug.Print(ex.Message)
+            Debug.Print("Error =>" + ex.Message)
             Return 0
 
         End Try

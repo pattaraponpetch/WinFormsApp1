@@ -23,8 +23,6 @@ Partial Class Form4
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Button1 = New Button()
-        Button2 = New Button()
-        Button3 = New Button()
         dtgrank = New DataGridView()
         lblProfile = New Label()
         Label2 = New Label()
@@ -42,24 +40,6 @@ Partial Class Form4
         Button1.Text = "Back"
         Button1.UseVisualStyleBackColor = True
         ' 
-        ' Button2
-        ' 
-        Button2.Location = New Point(722, 41)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(94, 29)
-        Button2.TabIndex = 0
-        Button2.Text = "Back"
-        Button2.UseVisualStyleBackColor = True
-        ' 
-        ' Button3
-        ' 
-        Button3.Location = New Point(270, 460)
-        Button3.Name = "Button3"
-        Button3.Size = New Size(131, 34)
-        Button3.TabIndex = 0
-        Button3.Text = "Button"
-        Button3.UseVisualStyleBackColor = True
-        ' 
         ' dtgrank
         ' 
         dtgrank.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
@@ -75,36 +55,36 @@ Partial Class Form4
         lblProfile.AutoSize = True
         lblProfile.Location = New Point(229, 50)
         lblProfile.Name = "lblProfile"
-        lblProfile.Size = New Size(53, 20)
+        lblProfile.Size = New Size(15, 20)
         lblProfile.TabIndex = 2
-        lblProfile.Text = "Label1"
+        lblProfile.Text = "-"
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
         Label2.Location = New Point(173, 294)
         Label2.Name = "Label2"
-        Label2.Size = New Size(53, 20)
+        Label2.Size = New Size(15, 20)
         Label2.TabIndex = 2
-        Label2.Text = "Label2"
+        Label2.Text = "-"
         ' 
         ' Label3
         ' 
         Label3.AutoSize = True
         Label3.Location = New Point(173, 353)
         Label3.Name = "Label3"
-        Label3.Size = New Size(53, 20)
+        Label3.Size = New Size(15, 20)
         Label3.TabIndex = 3
-        Label3.Text = "Label3"
+        Label3.Text = "-"
         ' 
         ' Label4
         ' 
         Label4.AutoSize = True
         Label4.Location = New Point(173, 412)
         Label4.Name = "Label4"
-        Label4.Size = New Size(53, 20)
+        Label4.Size = New Size(15, 20)
         Label4.TabIndex = 4
-        Label4.Text = "Label4"
+        Label4.Text = "-"
         ' 
         ' Form4
         ' 
@@ -117,8 +97,6 @@ Partial Class Form4
         Controls.Add(Label2)
         Controls.Add(lblProfile)
         Controls.Add(dtgrank)
-        Controls.Add(Button3)
-        Controls.Add(Button2)
         Controls.Add(Button1)
         ForeColor = Color.Black
         Name = "Form4"
@@ -129,8 +107,6 @@ Partial Class Form4
     End Sub
 
     Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
     Friend WithEvents dtgrank As DataGridView
     Friend WithEvents lblProfile As Label
     Friend WithEvents Label2 As Label

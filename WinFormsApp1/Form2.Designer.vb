@@ -27,8 +27,9 @@ Partial Class Form2
         Label2 = New Label()
         LabelPassword = New Label()
         ButtonEditProfile = New Button()
-        Button2 = New Button()
+        ButtonRank = New Button()
         Label3 = New Label()
+        ButtonLogout = New Button()
         SuspendLayout()
         ' 
         ' Label1
@@ -45,7 +46,7 @@ Partial Class Form2
         ' LabelEmail
         ' 
         LabelEmail.AutoSize = True
-        LabelEmail.BackColor = SystemColors.Highlight
+        LabelEmail.BackColor = SystemColors.ButtonFace
         LabelEmail.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
         LabelEmail.Location = New Point(231, 146)
         LabelEmail.Name = "LabelEmail"
@@ -67,7 +68,7 @@ Partial Class Form2
         ' LabelPassword
         ' 
         LabelPassword.AutoSize = True
-        LabelPassword.BackColor = SystemColors.Highlight
+        LabelPassword.BackColor = SystemColors.ButtonFace
         LabelPassword.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
         LabelPassword.Location = New Point(267, 186)
         LabelPassword.Name = "LabelPassword"
@@ -80,24 +81,24 @@ Partial Class Form2
         ButtonEditProfile.AutoSize = True
         ButtonEditProfile.BackColor = SystemColors.Control
         ButtonEditProfile.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        ButtonEditProfile.Location = New Point(249, 272)
+        ButtonEditProfile.Location = New Point(157, 256)
         ButtonEditProfile.Name = "ButtonEditProfile"
-        ButtonEditProfile.Size = New Size(132, 30)
+        ButtonEditProfile.Size = New Size(162, 45)
         ButtonEditProfile.TabIndex = 4
         ButtonEditProfile.Text = "Edit Your Profile"
         ButtonEditProfile.UseVisualStyleBackColor = False
         ' 
-        ' Button2
+        ' ButtonRank
         ' 
-        Button2.AutoSize = True
-        Button2.BackColor = SystemColors.Control
-        Button2.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        Button2.Location = New Point(417, 272)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(94, 30)
-        Button2.TabIndex = 5
-        Button2.Text = "Ranked"
-        Button2.UseVisualStyleBackColor = False
+        ButtonRank.AutoSize = True
+        ButtonRank.BackColor = SystemColors.Control
+        ButtonRank.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        ButtonRank.Location = New Point(340, 256)
+        ButtonRank.Name = "ButtonRank"
+        ButtonRank.Size = New Size(139, 45)
+        ButtonRank.TabIndex = 5
+        ButtonRank.Text = "Ranked"
+        ButtonRank.UseVisualStyleBackColor = False
         ' 
         ' Label3
         ' 
@@ -109,6 +110,18 @@ Partial Class Form2
         Label3.TabIndex = 6
         Label3.Text = "DATA"
         ' 
+        ' ButtonLogout
+        ' 
+        ButtonLogout.AutoSize = True
+        ButtonLogout.BackColor = SystemColors.Control
+        ButtonLogout.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        ButtonLogout.Location = New Point(516, 256)
+        ButtonLogout.Name = "ButtonLogout"
+        ButtonLogout.Size = New Size(139, 45)
+        ButtonLogout.TabIndex = 5
+        ButtonLogout.Text = "Logout"
+        ButtonLogout.UseVisualStyleBackColor = False
+        ' 
         ' Form2
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
@@ -116,7 +129,8 @@ Partial Class Form2
         BackColor = Color.LightBlue
         ClientSize = New Size(800, 450)
         Controls.Add(Label3)
-        Controls.Add(Button2)
+        Controls.Add(ButtonLogout)
+        Controls.Add(ButtonRank)
         Controls.Add(ButtonEditProfile)
         Controls.Add(LabelPassword)
         Controls.Add(Label2)
@@ -133,7 +147,8 @@ Partial Class Form2
     Friend WithEvents Label2 As Label
     Friend WithEvents LabelPassword As Label
     Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents ButtonRank As Button
     Friend WithEvents Label3 As Label
     Friend WithEvents ButtonEditProfile As Button
+    Friend WithEvents ButtonLogout As Button
 End Class

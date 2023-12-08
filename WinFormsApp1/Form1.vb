@@ -7,7 +7,7 @@ Public Class Form1
 
     Private Sub ButtonLogin_Click(sender As Object, e As EventArgs) Handles ButtonLogin.Click
         sql = String.Format("SELECT * FROM Users WHERE Email = '{0}' AND Password = '{1}';",
-                                TextBoxEmail.Text, TextBoxPassword.Text)
+        TextBoxEmail.Text, TextBoxPassword.Text)
         da = New SqlDataAdapter(sql, cn)
         ds = New DataSet()
         da.Fill(ds, "Users")

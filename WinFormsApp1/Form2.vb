@@ -13,8 +13,16 @@
 
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+    Private Sub ButtonRank_Click(sender As Object, e As EventArgs) Handles ButtonRank.Click
         Hide()
         Form4.Show()
+    End Sub
+    Private Sub ButtonLogout_Click(sender As Object, e As EventArgs) Handles ButtonLogout.Click
+        Hide()
+        Form1.Show()
+    End Sub
+
+    Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class

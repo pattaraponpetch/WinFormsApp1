@@ -37,7 +37,7 @@ Partial Class Form1
         TextBoxEmail.Name = "TextBoxEmail"
         TextBoxEmail.Size = New Size(299, 27)
         TextBoxEmail.TabIndex = 0
-        TextBoxEmail.Text = "gwen@gmail.com"
+        TextBoxEmail.Text = "aquarles91@manda.com"
         ' 
         ' TextBoxPassword
         ' 
@@ -45,7 +45,7 @@ Partial Class Form1
         TextBoxPassword.Name = "TextBoxPassword"
         TextBoxPassword.Size = New Size(299, 27)
         TextBoxPassword.TabIndex = 1
-        TextBoxPassword.Text = "3e6r#fzY"
+        TextBoxPassword.Text = "bN1LwKzR"
         ' 
         ' ButtonLogin
         ' 

@@ -59,12 +59,12 @@ Public Class Form3
                 MessageBox.Show("เเก้ไขไม่สำเร็จ1 ", "warning !!", MessageBoxButtons.OK)
             Else
                 sql = ""
-                sql = String.Format("Update Runner set Gender='{0}', CountryCode='{1}',DateOfBirth='{3}' WHERE Email='{2}'", ComboBoxGender.Text, CountryCode, LabelEmail.Text, textboxxx.Text)
+                sql = String.Format("Update Runner set Gender='{0}', CountryCode='{1}',DateOfBirth='{2}' WHERE Email='{3}'", ComboBoxGender.Text, CountryCode, LabelEmail.Text, textboxxx.Text)
                 If cmd_excuteNonqueryUpdete() = 0 Then
                     MessageBox.Show("เเก้ไขไม่สำเร็จ2", "warning !!", MessageBoxButtons.OK)
                 Else
                     MessageBox.Show("เเก้ไขสำเร็จ", "Susses !!", MessageBoxButtons.OK)
-                    Close()
+
                 End If
 
             End If

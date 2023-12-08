@@ -69,7 +69,7 @@ Partial Class Form3
         ' LabelEmail
         ' 
         LabelEmail.AutoSize = True
-        LabelEmail.BackColor = SystemColors.Highlight
+        LabelEmail.BackColor = SystemColors.ButtonFace
         LabelEmail.Location = New Point(189, 64)
         LabelEmail.Name = "LabelEmail"
         LabelEmail.Size = New Size(45, 20)
@@ -79,6 +79,7 @@ Partial Class Form3
         ' ButtonBack
         ' 
         ButtonBack.AutoSize = True
+        ButtonBack.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
         ButtonBack.Location = New Point(12, 12)
         ButtonBack.Name = "ButtonBack"
         ButtonBack.Size = New Size(94, 30)
@@ -88,11 +89,12 @@ Partial Class Form3
         ' 
         ' Button1
         ' 
+        Button1.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
         Button1.Location = New Point(694, 12)
         Button1.Name = "Button1"
         Button1.Size = New Size(94, 29)
         Button1.TabIndex = 6
-        Button1.Text = "Button1"
+        Button1.Text = "Logout"
         Button1.UseVisualStyleBackColor = True
         ' 
         ' Label3
@@ -107,7 +109,7 @@ Partial Class Form3
         ' 
         ' TextBoxFirstName
         ' 
-        TextBoxFirstName.BackColor = SystemColors.Highlight
+        TextBoxFirstName.BackColor = SystemColors.ButtonFace
         TextBoxFirstName.Location = New Point(179, 107)
         TextBoxFirstName.Name = "TextBoxFirstName"
         TextBoxFirstName.Size = New Size(250, 27)
@@ -115,7 +117,7 @@ Partial Class Form3
         ' 
         ' TextBoxLastName
         ' 
-        TextBoxLastName.BackColor = SystemColors.Highlight
+        TextBoxLastName.BackColor = SystemColors.ButtonFace
         TextBoxLastName.Location = New Point(179, 143)
         TextBoxLastName.Name = "TextBoxLastName"
         TextBoxLastName.Size = New Size(250, 27)
@@ -133,7 +135,7 @@ Partial Class Form3
         ' 
         ' ComboBoxGender
         ' 
-        ComboBoxGender.BackColor = SystemColors.Highlight
+        ComboBoxGender.BackColor = SystemColors.ButtonFace
         ComboBoxGender.FormattingEnabled = True
         ComboBoxGender.Location = New Point(179, 192)
         ComboBoxGender.Name = "ComboBoxGender"
@@ -149,7 +151,7 @@ Partial Class Form3
         ' 
         ' textboxxx
         ' 
-        textboxxx.BackColor = SystemColors.Highlight
+        textboxxx.BackColor = SystemColors.ButtonFace
         textboxxx.Location = New Point(178, 275)
         textboxxx.Name = "textboxxx"
         textboxxx.Size = New Size(250, 27)
@@ -157,7 +159,7 @@ Partial Class Form3
         ' 
         ' ComboBoxCountry
         ' 
-        ComboBoxCountry.BackColor = SystemColors.Highlight
+        ComboBoxCountry.BackColor = SystemColors.ButtonFace
         ComboBoxCountry.FormattingEnabled = True
         ComboBoxCountry.Location = New Point(178, 308)
         ComboBoxCountry.Name = "ComboBoxCountry"
@@ -166,7 +168,7 @@ Partial Class Form3
         ' 
         ' TextBoxPassword
         ' 
-        TextBoxPassword.BackColor = SystemColors.Highlight
+        TextBoxPassword.BackColor = SystemColors.ButtonFace
         TextBoxPassword.Location = New Point(574, 107)
         TextBoxPassword.Name = "TextBoxPassword"
         TextBoxPassword.Size = New Size(125, 27)
@@ -174,7 +176,7 @@ Partial Class Form3
         ' 
         ' TextBox5
         ' 
-        TextBox5.BackColor = SystemColors.Highlight
+        TextBox5.BackColor = SystemColors.ButtonFace
         TextBox5.Location = New Point(574, 143)
         TextBox5.Name = "TextBox5"
         TextBox5.Size = New Size(125, 27)
@@ -224,7 +226,7 @@ Partial Class Form3
         ' 
         ' TextBoxDateOfBirth
         ' 
-        TextBoxDateOfBirth.BackColor = SystemColors.Highlight
+        TextBoxDateOfBirth.BackColor = SystemColors.ButtonFace
         TextBoxDateOfBirth.Location = New Point(574, 188)
         TextBoxDateOfBirth.Name = "TextBoxDateOfBirth"
         TextBoxDateOfBirth.Size = New Size(125, 27)
